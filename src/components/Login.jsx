@@ -14,6 +14,7 @@ export const Login = () => {
     };
     return (
         <div>
+            <h2>Login</h2>
             <label style={{marginRight:"29px"}}>Email:- </label>
             <input
                 onChange={handleChange}
