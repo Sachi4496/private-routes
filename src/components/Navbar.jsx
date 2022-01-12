@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
     return <>
         <div style={{ width:"100%", height:"60px", backgroundColor:"black",display:"flex", justifyContent:"center"}}>
-            <Link to="/" style={{textDecoration: "none", fontWeight:"bold", color:"white", margin:"20px" }}>Homepage</Link>
+            <Link to="/" style={{textDecoration: "none", fontWeight:"bold", color:"white", margin:"20px" }}>Home</Link>
             <Link to="/dashboard" style={{ margin: "10px",textDecoration: "none" ,fontWeight:"bold", color:"white", margin:"20px" }}>
                 Dashboard
             </Link>
